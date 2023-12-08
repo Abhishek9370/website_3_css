@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website_5</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+            background-color: burlywood;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: green;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            text-align: center;
+
+
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        li a {
+            padding: 15px;
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+        }
+
+        section h1 {
+            background-color: grey;
+            padding: 10px;
+        }
+
+        .aboutus {
+            display: flex;
+            margin: 5px;
+        }
+
+        .imgs {
+            flex: 25px;
+            margin: 5px;
+            background-color: aquamarine;
+            border: solid red 2px;
+        }
+
+        .services {
+            display: flex;
+        }
+
+        .service {
+            flex: 25%;
+            background-color: pink;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+        }
+
+        .video {
+            flex: 50%;
+            margin: 5px;
+        }
+
+        .contactus {
+            display: flex;
+        }
+
+        .map {
+            flex: 50%;
+            margin: 5px;
+            border: solid red 2px;
+        }
+
+        section h2 {
+            background-color: aqua;
+            padding: 10px;
+        }
+
+        .forms {
+            flex: 50%;
+            margin: 5px;
+
+            border: solid red 2px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        @media (max-width:700px) {
+
+            .aboutus,
+            .services,
+            .gallery,
+            .contactus {
+                flex-direction: column;
+            }
+
+            li {
+                display: block;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>WEBSITE</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#mainabout">About</a></li>
+            <li><a href="#mainservices">Services</a></li>
+            <li><a href="#maingallery">Gallery</a></li>
+            <li><a href="#maincontact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="aboutus">
+        <img src="assets/images/khamkeo-vilaysing-myZqfQhh9QU-unsplash.jpg" width="100%" height="500px" alt="">
+    </div>
+    <section id="mainabout">
+        <h1 style="text-align: center;">About Us</h1>
+        <div class="aboutus">
+            <div class="imgs">
+                <img src="assets/images/161119230907-ronaldo-atletico-madrid.jpg" width="100%" height="450px" alt="">
+                <p><i><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cum quaerat delectus eligendi,
+                            numquam molestias tenetur maxime qui, sapiente id quisquam adipisci quibusdam quo quidem sed
+                            beatae aperiam rem voluptatibus!</b></i></p>
+            </div>
+            <div class="imgs">
+                <img src="assets/images/Sergio-Ramos-1.jpg.webp" width="100%" height="450px" alt="">
+                <p><i><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cum quaerat delectus eligendi,
+                            numquam molestias tenetur maxime qui, sapiente id quisquam adipisci quibusdam quo quidem sed
+                            beatae aperiam rem voluptatibus!</b></i></p>
+            </div>
+            <div class="imgs">
+                <img src="assets/images/download.jpg" width="100%" height="450px" alt="">
+                <p><i><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cum quaerat delectus eligendi,
+                            numquam molestias tenetur maxime qui, sapiente id quisquam adipisci quibusdam quo quidem sed
+                            beatae aperiam rem voluptatibus!</b></i></p>
+            </div>
+            <div class="imgs">
+                <img src="assets/images/fb9cf27e208db9969f27ae15b40fcc66Y29udGVudHNlYXJjaGFwaSwxNjc2NTg3NjMy-2.66708215.avif"
+                    width="100%" height="450px" alt="">
+                <p><i><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cum quaerat delectus eligendi,
+                            numquam molestias tenetur maxime qui, sapiente id quisquam adipisci quibusdam quo quidem sed
+                            beatae aperiam rem voluptatibus!</b></i></p>
+            </div>
+        </div>
+    </section>
+    <section id="mainservices">
+        <h1 style="text-align: center;">services</h1>
+        <div class="services">
+            <div class="service">
+                <h2>Web Development</h2>
+                <p><b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quia perspiciatis minus sequi sed
+                        velit a ipsam commodi, eius aut ex eaque cupiditate consequuntur voluptatum voluptatibus nisi
+                        provident quis odit. Iusto quos labore ab ipsa. Autem quibusdam voluptatibus commodi
+                        perspiciatis unde consequatur dicta officia eveniet quos doloribus, quam esse non inventore
+                        voluptate atque earum, tempore blanditiis voluptas eaque error. Nesciunt rem, quo molestias nam
+                        debitis quis provident odit deserunt eaque?</b></p>
+            </div>
+            <div class="service">
+                <h2>Application Development</h2>
+                <p><b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quia perspiciatis minus sequi sed
+                        velit a ipsam commodi, eius aut ex eaque cupiditate consequuntur voluptatum voluptatibus nisi
+                        provident quis odit. Iusto quos labore ab ipsa. Autem quibusdam voluptatibus commodi
+                        perspiciatis unde consequatur dicta officia eveniet quos doloribus, quam esse non inventore
+                        voluptate atque earum, tempore blanditiis voluptas eaque error. Nesciunt rem, quo molestias nam
+                        debitis quis provident odit deserunt eaque?</b></p>
+            </div>
+            <div class="service">
+                <h2> Digital Marketing</h2>
+                <p><b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quia perspiciatis minus sequi sed
+                        velit a ipsam commodi, eius aut ex eaque cupiditate consequuntur voluptatum voluptatibus nisi
+                        provident quis odit. Iusto quos labore ab ipsa. Autem quibusdam voluptatibus commodi
+                        perspiciatis unde consequatur dicta officia eveniet quos doloribus, quam esse non inventore
+                        voluptate atque earum, tempore blanditiis voluptas eaque error. Nesciunt rem, quo molestias nam
+                        debitis quis provident odit deserunt eaque?</b></p>
+            </div>
+            <div class="service">
+                <h2>Web Designing</h2>
+                <p><b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quia perspiciatis minus sequi sed
+                        velit a ipsam commodi, eius aut ex eaque cupiditate consequuntur voluptatum voluptatibus nisi
+                        provident quis odit. Iusto quos labore ab ipsa. Autem quibusdam voluptatibus commodi
+                        perspiciatis unde consequatur dicta officia eveniet quos doloribus, quam esse non inventore
+                        voluptate atque earum, tempore blanditiis voluptas eaque error. Nesciunt rem, quo molestias nam
+                        debitis quis provident odit deserunt eaque?</b></p>
+            </div>
+        </div>
+    </section>
+    <section id="maingallery">
+        <h1 style="text-align: center;">Gallery</h1>
+        <div class="gallery">
+            <div class="video">
+                <iframe width="100%" height="450px" src="https://www.youtube.com/embed/aUKXhcJmNiM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="100%" height="450px" src="https://www.youtube.com/embed/8JhdiDiZMNE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section id="maincontact">
+        <h1 style="text-align: center;">Contact Us</h1>
+        <div class="contactus">
+            <div class="map">
+                <h2 style="text-align: center;">MAP</h2><br>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30767544.193506286!2d60.93102528546006!3d19.72097835575917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1691415104729!5m2!1sen!2sin"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="forms">
+                <h2 style="text-align: center;">FORMS</h2><br>
+                <header>
+                    <h3 style="text-align: center;">PERSONAL DEATILS</h3>
+                    <hr>
+                    <hr>
+                </header>
+                <br>
+                <br>
+                <section style="text-align: center;">
+                    <form>
+                        <label>First Name :</label>
+                        <input type="text" placeholder="Name"><br><br>
+                        <label>Middle Name :</label>
+                        <input type="text" placeholder="Middle Name"><br><br>
+                        <label>Last Name :</label>
+                        <input type="text" placeholder="Last Name"><br><br>
+                        <label>Gender :</label>
+                        <label><input type="radio" name="gender">male</label>
+                        <label><input type="radio" name="gender">female</label><br><br>
+                        <label>Email :</label>
+                        <input type="text" placeholder="Enter Email"><br><br>
+                        <label>Enter Mobile No. :</label>
+                        <input type="number" placeholder="Enter Number:"><br><br>
+                        <label>Date Of Birth :</label>
+                        <input type="Date"><br><br>
+                        <label>Age :</label>
+                        <input type="number" placeholder="Enter Age"><br><br>
+                        <label>Address :</label>
+                        <textarea cols="30" rows="5" placeholder="Enter Address"></textarea><br><br>
+                        <label>Location:</label>
+                        <select multiple>
+                            <option value="">--Select--</option>
+                            <option value="">Pune</option>
+                            <option value="">kolhapur</option>
+                            <option value="">Nashik</option>
+                            <option value="">Mumbai</option>
+                        </select><br><br>
+                        <button>
+                            <input type="Submit">
+                        </button>
+                        <button>
+                            <input type="Reset">
+                        </button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h4>Footer</h4>
+        <a href="mail to: abhidesai07@gamil.com.">mail</a>
+        <a href="tel: 9370484707">Contact No</a>
+    </footer>
+    
+</body>
+</html>
